@@ -10,8 +10,6 @@ variable "password" {
 
 provider "aws" {
     region = "us-east-2"
-    access_key = "AKIA4F3UYCMJVGOBYQEM"
-    secret_key = "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"
 }
 
 resource "aws_instance" "node1" {
