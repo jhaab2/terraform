@@ -1,13 +1,3 @@
-variable "username" {
-    description = "User id for AWS"
-    type        = string
-}
-variable "password" {
-    description = "key for AWS"
-    type        = string
-}
-
-
 provider "aws" {
     region = "us-east-2"
 }
